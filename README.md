@@ -8,7 +8,7 @@ I prefer a simple, clean UI on a reproducible Linux ecosystem, with customizatio
 
 ## Current Projects
 
-The two biggest projects I've taken on to date. One engine and one game, each built for the other.
+One engine and one game, each built for the other.
 
 ### Ferrite — the engine
 **Ferrite** (under construction) — an AI‑agent‑native, editor‑first 3D game engine written entirely in Rust, targeting Linux, Windows and Android.

@@ -18,26 +18,27 @@ The two biggest projects I've taken on to date. One engine and one game, each bu
 - **Built for deterministic sims.** Games that run their own lockstep, rollback, or server‑authoritative simulation get a supported bridge, not a workaround.
 - **Generators are first‑class assets**, with reproducibility checks — the same way Direct Order 27's art is made.
 - **Rust all the way down.** Engine, editor, tools, and gameplay. No scripting VM. wgpu (Vulkan / DX12), Rapier physics, Kira audio, an ECS core.
-- **Original work.** Clean‑room: no code, file formats, names, or assets from any proprietary engine.
 
-**Status:** milestone M0 of 20 — workspace, CI, build‑time budgets. The spec is written; the crates are a compiling skeleton. The finish line is shipping Direct Order 27 on it.
+  The finish line is shipping Direct Order 27 on it.
 
 ### Direct Order 27 — the game
 **Direct Order 27** (under construction) — a photorealistic hard sci‑fi FPS/RTS. Multiplayer only.
 
-> In 2041 an automated alien mining ship arrived at Saturn and began stripping the solar system for an alloy nothing in nature makes. Humanity shot one hull down. Its escape pod landed on Earth, learned to talk, named itself Steve, and helped us destroy the rest. By 2161 that alloy — **scrap** — is the most valuable thing in the solar system. There's a fixed amount of it, and the machines' masters are coming back around 2460. Four factions fight over the wrecks under Direct Order 27: collect all of it, by any means necessary. Every match is training for the war that's coming.
+> In 2041 an automated alien mining ship arrived at Saturn and began stripping the solar system for elements to make an alloy nothing in nature makes. Humanity shot one hull down. Its escape pod landed on Earth, damaged, sought refuge in earths infrastructure and helped us destroy the rest. By 2161 that alloy is the most valuable thing in the solar system. There's a fixed amount of it, and the machines' masters are coming back. Four factions fight over the wrecks under Direct Order 27: collect all of it, by any means necessary. Every match is training for the war that's coming.
 
 - **Command and fight at the same time.** Pilot your own hover tank, build a base, and give orders from the cockpit.
 - **Four factions**, each with its own roster, history, and doctrine. Pilots fight in printed clones over a live link — run out of clones and you're out.
-- **Netcode first.** An authoritative 60 Hz simulation on its own thread, never tied to frame rate. Bit‑identical across operating systems, so replays are exact. 16 players by design, 32 on a dedicated host. Every lesson from my [Battlezone netcode patch](https://github.com/PiercingXX/battlezone-netcode-patch) is a rule with a test behind it.
-- **Rust at the core.** Simulation and netcode are Rust today; presentation moves to Ferrite, so the whole game ends up Rust.
-- **Hard science that grows.** Every capability has a mechanism someone could explain. Every shipped file is original and reviewed by hand.
+- **Netcode first.** Bit‑identical across operating systems, so replays are exact. 16 players by design, 32 on a dedicated host.
+- **Rust at the core.** Simulation, netcode, and presentation are all Rust.
+- **Hard science that grows.** Every capability has a mechanism someone could explain.
+- **Original** Every shipped file is original from the ground up, fully written in rust. Any similarities to other concepts or ideas are by coincidence only.
+- **Alpha Release** v0.1 will be in a few weeks. Currently built as a direct P2P for initial game play mechanics and netcode testing. Once stability is ensured and enough assets are built out Alpha v1 will be available on Steam.
 
 ---
 
 ## What I've built ⚙️
 
-To get the rest of my setup the way I want it, I had to build:
+To get my setup the way I want it, I had to build:
 
 - Reproducible Linux installers that turn “fresh ISO” into “daily driver”.
 - Dotfiles that keep that machine mine — keyboard, WM, editor, the lot.

@@ -14,8 +14,6 @@ I prefer a simple, clean UI on a reproducible Linux ecosystem, with customizatio
 - **Elegant complexity:** hide the sharp edges, keep the power. Minimal dependencies, sane defaults, readable code, zero drama.
 - **Defaults with a spine:** opinions included at no extra charge.
 
----
-
 **Stack:** 
 - Rust for the engine and game
 - Kotlin + Jetpack Compose on Android

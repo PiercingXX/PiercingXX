@@ -6,6 +6,18 @@ I prefer a simple, clean UI on a reproducible Linux ecosystem, with customizatio
 
 ---
 
+## How I work 
+
+- **Local first:** my AI, my inference, my data, my hardware. Cloud is opt‑in or absent. If it can run on my hardware, it will... if it can't, buy more hardware.
+- **Repeatable results:** a fresh install should feel like home in minutes. Scripts > screenshots, always.
+- **Text‑first, gesture‑driven, low‑friction UX** — on a desktop, a phone, or a lock screen.
+- **Elegant complexity:** hide the sharp edges, keep the power. Minimal dependencies, sane defaults, readable code, zero drama.
+- **Defaults with a spine:** opinions included at no extra charge.
+
+**Stack:** Rust for the engine and game · Kotlin + Jetpack Compose on Android · Python + GTK4/libadwaita + layer‑shell on Linux · FastAPI for house servers, Go when the binary *is* the product · POSIX Bash, gum / fzf / whiptail · Hyprland (GNOME on tablets, phoc on phones) · Kitty, Yazi, Neovim, tmux · Docker/Compose, NVIDIA + CUDA, SGLang, Wyoming/Home Assistant, Tailscale
+
+---
+
 ## Current Projects
 
 One engine and one game, each built for the other.
@@ -36,7 +48,7 @@ One engine and one game, each built for the other.
 
 ---
 
-## What I've built ⚙️
+## What I've built 
 
 To get my setup the way I want it, I had to build:
 
@@ -53,7 +65,7 @@ Yes, it’s opinionated, but that is why it’s good.
 
 ---
 
-## Linux 🐧
+## Linux 
 
 This is the backbone. A fresh ISO becomes a daily driver here.
 
@@ -79,7 +91,7 @@ Drivers and scripts for hardware that isn’t in the kernel — shipped with the
 
 ---
 
-## Phone 📱
+## Phone 
 
 The mobile market is overrun by two equally non‑valid options... then there are Linux phones, also not valid but for different reasons: way underdeveloped, many issues, and not enough financial backing to make it a viable market — *yet*.
 
@@ -126,14 +138,14 @@ Tested on GrapheneOS (Pixel 9 Pro). Other Android builds should work but are unt
 
 ---
 
-## Local AI & self‑hosting 🤖
+## Local AI & self‑hosting 
 
 - **[XX-Stack](https://github.com/PiercingXX/xx-stack)** — let your local AI use every computer you own. Agent contracts, routing policy, an MCP server, and a local inference control plane over Tailscale. Cloud APIs are off unless you switch them on.
 - **[free-opencode-hermes](https://github.com/PiercingXX/free-opencode-hermes)** — a local proxy so OpenCode (and Hermes-Agent) can run from the terminal against providers you already have keys for, or models on machines you own. Keys stay in the proxy, not in the agent.
 
 ---
 
-## Odds & ends 🗃️
+## Odds & ends 
 
 - **[piercing-keyboard-layout](https://github.com/PiercingXX/piercing-keyboard-layout)** — my own layout that no one else will ever use. One layout, every platform: Linux (xkb), Windows, Android/GrapheneOS, and QMK/Vial ortho boards.
 - **xx-platform** (private) — ops console for the businesses under XX: scheduling, bookkeeping, documents, reminders. Next.js + Prisma + PostgreSQL.
@@ -142,19 +154,7 @@ Tested on GrapheneOS (Pixel 9 Pro). Other Android builds should work but are unt
 
 ---
 
-## How I work 🧪
-
-- **Local first:** my AI, my inference, my data, my hardware. Cloud is opt‑in or absent. If it can run on my hardware, it will... if it can't, buy more hardware.
-- **Repeatable results:** a fresh install should feel like home in minutes. Scripts > screenshots, always.
-- **Text‑first, gesture‑driven, low‑friction UX** — on a desktop, a phone, or a lock screen.
-- **Elegant complexity:** hide the sharp edges, keep the power. Minimal dependencies, sane defaults, readable code, zero drama.
-- **Defaults with a spine:** opinions included at no extra charge.
-
-**Stack:** Rust for the engine and game · Kotlin + Jetpack Compose on Android · Python + GTK4/libadwaita + layer‑shell on Linux · FastAPI for house servers, Go when the binary *is* the product · POSIX Bash, gum / fzf / whiptail · Hyprland (GNOME on tablets, phoc on phones) · Kitty, Yazi, Neovim, tmux · Docker/Compose, NVIDIA + CUDA, SGLang, Wyoming/Home Assistant, Tailscale
-
----
-
-## Contact 📮
+## Contact 
 
 Email: Don’t.
 

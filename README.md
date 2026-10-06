@@ -55,7 +55,7 @@ Yes, it’s opinionated, but that is why it’s good.
 
 ## Linux 🐧
 
-This is the backbone. The phone is a client of a Linux house. The suite servers live here. A fresh ISO becomes a daily driver here.
+This is the backbone. A fresh ISO becomes a daily driver here.
 
 ### Installers
 - **[linux-mod](https://github.com/PiercingXX/linux-mod)** — one installer for Arch, Artix, Debian/Ubuntu, Fedora, Void, openSUSE, and Alpine. Full workstation or mini (tablets, lean boxes). Menu‑driven (gum → fzf → whiptail). Resumable. Dry‑run. Distro differences live inside the module, not in a pile of forks.
@@ -69,12 +69,6 @@ This is the backbone. The phone is a client of a Linux house. The suite servers 
 	- Waybar, kitty, Neovim, Yazi, Tmux, GIMP — customized into minimal yet fully functional powerhouses
 	- `Super+/` opens the Cheat Sheet; `Super+S` opens a bash‑driven settings menu — don’t leave the keyboard
 	- System updates, package manager, audio, Wi‑Fi, Bluetooth, wallpaper, backup, users, mirrors, clean — from that menu
-
-### The house
-The suite backends, and the mesh all run on Linux I own. Phone apps talk here. Native Linux apps will talk here too, same look, same verbs.
-- Photos, audiobook, vitals, calendar, notes, drive, radio — servers already on the NAS
-- Tailscale is how a laptop in the other room is still home
-- **[tailscale-protonvpn-exitnode](https://github.com/PiercingXX/tailscale-protonvpn-exitnode)** (fork) — docker‑compose: Tailscale plus ProtonVPN as an exit node
 
 ### Device enabling
 Drivers and scripts for hardware that isn’t in the kernel — shipped with the installer:
@@ -94,7 +88,7 @@ So while we wait, my daily is a Pixel 9 Pro running GrapheneOS, and I've replace
 > **All the Android apps are my daily drivers.**
 
 **The store**
-- **XX-Apps** (private) — the suite store. One login, one catalog, updates from the house forge. Not Play. Not F-Droid. Not Obtainium.
+- **XX-Apps** (private) — the suite store. One login, one catalog, updates from the house Gitea forge. Not Play. Not F-Droid. Not Obtainium.
 
 **On the phone**
 - **[XX-Launcher](https://github.com/PiercingXX/XX-Launcher)** — text‑first Android launcher (Kotlin). No icons, no wallpaper clutter. Search‑first drawer, 8 home slots, inline folders, gestures, widgets, theme presets, JSON backup. The design ancestor of everything below.
@@ -145,17 +139,6 @@ Tested on GrapheneOS (Pixel 9 Pro). Other Android builds should work but are unt
 - **xx-platform** (private) — ops console for the businesses under XX: scheduling, bookkeeping, documents, reminders. Next.js + Prisma + PostgreSQL.
 - **piercingxx-branding** (private) — the brand system behind all of the above: color, type, logomark, and voice.
 - **book-list** (private) — my ongoing attempt to separate the worthwhile from the well‑marketed nonsense.
-
----
-
-## Battlezone 98 Redux 🎮
-
-The 1998 tank RTS/FPS hybrid that refuses to die... and I intend to keep it that way.
-
-- **[battlezone-netcode-patch](https://github.com/PiercingXX/battlezone-netcode-patch)** — netcode patch for BZ98 Redux multiplayer.
-- **[battlezone98-map-generator](https://github.com/PiercingXX/battlezone98-map-generator)** — AI map‑generation toolchain (`bzmap`) for multiplayer maps: generation pipeline, format writers, validators, and Workshop packaging.
-- **[BattleZone98-Godot-Map-Editor](https://github.com/PiercingXX/BattleZone98-Godot-Map-Editor)** — a feature‑rich Godot map editor for the same.
-- **[BZ1-GameWatcher](https://github.com/PiercingXX/BZ1-GameWatcher)** (fork) — the multiplayer game watcher.
 
 ---
 

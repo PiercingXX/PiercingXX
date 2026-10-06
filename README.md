@@ -14,7 +14,16 @@ I prefer a simple, clean UI on a reproducible Linux ecosystem, with customizatio
 - **Elegant complexity:** hide the sharp edges, keep the power. Minimal dependencies, sane defaults, readable code, zero drama.
 - **Defaults with a spine:** opinions included at no extra charge.
 
-**Stack:** Rust for the engine and game · Kotlin + Jetpack Compose on Android · Python + GTK4/libadwaita + layer‑shell on Linux · FastAPI for house servers, Go when the binary *is* the product · POSIX Bash, gum / fzf / whiptail · Hyprland (GNOME on tablets, phoc on phones) · Kitty, Yazi, Neovim, tmux · Docker/Compose, NVIDIA + CUDA, SGLang, Wyoming/Home Assistant, Tailscale
+---
+
+**Stack:** 
+- Rust for the engine and game
+- Kotlin + Jetpack Compose on Android
+- FastAPI for house servers, Go when the binary *is* the product
+- Bash, it's a love language, put it everywhere you can
+- Python when you have to
+- Kitty, Yazi, Neovim, tmux is a must
+- Docker/Compose, NVIDIA + CUDA, SGLang, Wyoming/Home Assistant, Tailscale
 
 ---
 

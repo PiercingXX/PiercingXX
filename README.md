@@ -1,30 +1,5 @@
 # PiercingXX
 
-> I bend Linux to my will so you don’t have to. Workstations, laptops, tablets, servers, phones — press the button, watch the chaos organize itself.
-
-I prefer a simple, clean UI on a reproducible Linux ecosystem, with customizations that make sense and eliminate friction. Most of what's below runs on hardware I own and talks to my local‑first AI for the whole house.
-
----
-
-## How I work 
-
-- **Local first:** my AI, my inference, my data, my hardware. Cloud is opt‑in or absent. If it can run on my hardware, it will... if it can't, buy more hardware.
-- **Repeatable results:** a fresh install should feel like home in minutes. Scripts > screenshots, always.
-- **Text‑first, gesture‑driven, low‑friction UX** — on a desktop, a phone, or a lock screen.
-- **Elegant complexity:** hide the sharp edges, keep the power. Minimal dependencies, sane defaults, readable code, zero drama.
-- **Defaults with a spine:** opinions included at no extra charge.
-
-**Stack:** 
-- Rust for the engine and game
-- Kotlin + Jetpack Compose on Android
-- FastAPI for house servers, Go when the binary *is* the product
-- Bash, it's a love language, put it everywhere you can
-- Python when you have to
-- Kitty, Yazi, Neovim, tmux is a must
-- Docker/Compose, NVIDIA + CUDA, SGLang, Wyoming/Home Assistant, Tailscale
-
----
-
 ## Current Projects
 
 One engine and one game, each built for the other.
@@ -56,6 +31,10 @@ One engine and one game, each built for the other.
 ---
 
 ## What I've built 
+
+> I bend Linux to my will so you don’t have to. Workstations, laptops, tablets, servers, phones — press the button, watch the chaos organize itself.
+
+I prefer a simple, clean UI on a reproducible Linux ecosystem, with customizations that make sense and eliminate friction. Most of what's below runs on hardware I own and talks to my local‑first AI for the whole house.
 
 To get my setup the way I want it, I had to build:
 
@@ -158,6 +137,25 @@ Tested on GrapheneOS (Pixel 9 Pro). Other Android builds should work but are unt
 - **xx-platform** (private) — ops console for the businesses under XX: scheduling, bookkeeping, documents, reminders. Next.js + Prisma + PostgreSQL.
 - **piercingxx-branding** (private) — the brand system behind all of the above: color, type, logomark, and voice.
 - **book-list** (private) — my ongoing attempt to separate the worthwhile from the well‑marketed nonsense.
+
+---
+
+## How I work 
+
+- **Local first:** my AI, my inference, my data, my hardware. Cloud is opt‑in or absent. If it can run on my hardware, it will... if it can't, buy more hardware.
+- **Repeatable results:** a fresh install should feel like home in minutes. Scripts > screenshots, always.
+- **Text‑first, gesture‑driven, low‑friction UX** — on a desktop, a phone, or a lock screen.
+- **Elegant complexity:** hide the sharp edges, keep the power. Minimal dependencies, sane defaults, readable code, zero drama.
+- **Defaults with a spine:** opinions included at no extra charge.
+
+**Stack:** 
+- Rust for the engine and game
+- Kotlin + Jetpack Compose on Android
+- FastAPI for house servers, Go when the binary *is* the product
+- Bash, it's a love language, put it everywhere you can
+- Python when you have to
+- Kitty, Yazi, Neovim, tmux is a must
+- Docker/Compose, NVIDIA + CUDA, SGLang, Wyoming/Home Assistant, Tailscale
 
 ---
 

@@ -83,41 +83,8 @@ The mobile market is overrun by two equally non‑valid options... then there ar
 
 So while we wait, my daily is a Pixel 9 Pro running GrapheneOS, and I've replaced the stock experience one app at a time.
 
-> **All the Android apps are my daily drivers.**
+> **All the Android apps will be available on Google Play soon. I will drop the link here when they land.**
 
-**The store**
-- **XX-Apps** (private) — the suite store. One login, one catalog, updates from the house Gitea forge. Not Play. Not F-Droid. Not Obtainium.
-
-**On the phone**
-- **[XX-Launcher](https://github.com/PiercingXX/XX-Launcher)** — text‑first Android launcher (Kotlin). No icons, no wallpaper clutter. Search‑first drawer, 8 home slots, inline folders, gestures, widgets, theme presets, JSON backup. The design ancestor of everything below.
-- **[TxxT](https://github.com/PiercingXX/TxxT)** — SMS in the same style as the launcher, with a few extras to cut out the noise.
-- **[XX-Dialer](https://github.com/PiercingXX/xx-dialer)** — pretty much the same as TxxT but for calls, with a ring policy attached: spam never rings, starred contacts always ring, everyone else rings only inside their allowed time window.
-- **[XX-Contacts](https://github.com/PiercingXX/xx-contacts)** — a UI over the system address book. Not a second contact store, not CardDAV, not a dialer. Ring policy stays in XX-Dialer. No INTERNET.
-- **[Nope-Mode](https://github.com/PiercingXX/Nope-Mode)** — selected apps go silent and un‑openable, on a schedule or on demand. Focus Mode for GrapheneOS, where Digital Wellbeing doesn't exist. Runs as device owner; no accounts, no network, no analytics.
-- **[XX-Calculator](https://github.com/PiercingXX/xx-calculator)** — it's a calculator that matches my theme. BigDecimal engine, no Android dependencies in the math.
-- **[XX-Email](https://github.com/PiercingXX/xx-email)** — Gmail without the proprietary Google blob. Tabs, snooze, undo‑send, operator search. No Play Services, no analytics.
-- **[XX-Clock](https://github.com/PiercingXX/xx-clock)** — clock, alarms, timers, offline. Per‑alarm ringtones.
-- **[XX-Weather](https://github.com/PiercingXX/xx-weather)** — ZIP in, forecast out. NWS first, Open-Meteo if NOAA is down. No location permission, no Play Services.
-- **[XX-Files](https://github.com/PiercingXX/xx-files)** — a real directory tree (`File.listFiles()`), not MediaStore “Recent / Images / Downloads”. Per‑volume trash, 30‑day restore. No INTERNET.
-- **[XX-Keyboard](https://github.com/PiercingXX/xx-keyboard)** — swipe‑first English keyboard with Colemak and Piercing layouts. Glide typing, no INTERNET permission, no proprietary Google blob.
-- **[XX-Auth](https://github.com/PiercingXX/xx-auth)** — offline TOTP/HOTP. Secrets stay in the Android Keystore. Scan a QR or paste a URI. No network, no cloud account, no telemetry.
-- **[XX-Camera](https://github.com/PiercingXX/xx-camera)** — Pixel‑class camera: AUTO, MANUAL, panorama/360. Writes JPEG/DNG/video on the phone. No INTERNET. The library is XX-Photos, not this APK.
-- **[XX-Auto](https://github.com/PiercingXX/xx-auto)** — a driving screen for a phone in a mount. Big targets, black ground, gets out of the way. Now playing, thumb‑sized play/skip, opens XX-Maps, dials a favourite. Can launch itself when the car's Bluetooth connects. No INTERNET.
-
-**Phone + server** — these have Linux server counterparts in the same repo.
-- **[XX-Photos](https://github.com/PiercingXX/xx-photos)** — private photo library on hardware I own. Phone client plus FastAPI server. Timeline, backup, albums; tagging stays on the server.
-- **[XX-Audiobook](https://github.com/PiercingXX/xx-audiobook)** — FastAPI server + Kotlin/Compose client. Audiobooks, ebooks, podcasts, RSS from my NAS. Not a storefront account.
-- **[XX-Vitals](https://github.com/PiercingXX/xx-vitals)** — a cleanroom Google Fit replacement: entered on the phone, Postgres on my own NAS, no cloud anywhere.
-- **[XX-Note](https://github.com/PiercingXX/xx-note)** — Keep's front end over a folder of Markdown files on my own NAS. Every note is one plain file with frontmatter. Delete the app and lose nothing.
-- **[XX-Calendar](https://github.com/PiercingXX/xx-calendar)** — CalDAV. Shows you your day. That is the whole pitch. CalDAV backend included. DAVx⁵ is leftover if you still need Google invites.
-- **[XX-Drive](https://github.com/PiercingXX/xx-drive)** — private cloud like Synology Drive, minus Synology. One Go binary on the NAS; native Android and Linux apps that look and work the same. Files stay files on disk. Not there yet.
-- **XX-Maps** (private) — offline‑first navigation. Vector map from one local file, on‑device search and routing, turn‑by‑turn, all with airplane mode on. Online adds live traffic, a community hazard‑report network, and ALPR‑aware routing.
-- **skpp‑radio** (private) — a local radio station. FastAPI server + Kotlin phone client. Listen on the phone, drive house speakers by zone, air spots on a schedule.
-- **xx-chat** (private) — Mattermost‑wire compatible staff/group chat with AI agent tie‑in, event‑log spine, membership walls, agents‑as‑staff. Offline‑first; agents post through the same door people do.
-
-One family theme, set once. They work alone or as a suite. XX-Maps, the store, radio, and chat stay private for now; everything installs through XX-Apps.
-
-Tested on GrapheneOS (Pixel 9 Pro). Other Android builds should work but are untested. Any app that talks to a server needs Tailscale (or Headscale) — install it, point the app at your server. Done.
 
 ### Where it's all headed
 - **[XX-WM](https://github.com/PiercingXX/XX-WM)** (under construction) — a minimalist Wayland shell for Linux phones and tablets. Text‑first, gesture‑driven, AMOLED black, Space Mono. No icon grids, anywhere. Calls, SMS, lock screen, notification shade — all first‑class surfaces. phoc today; Hyprland when the gestures catch up. Fairphone 5, Librem 5, Furi Phone FLX1. Python + GTK4. The Android suite above is the rehearsal; this is the venue.

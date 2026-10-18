@@ -33,7 +33,13 @@ I like a simple, clean UI on a reproducible Linux ecosystem, with customizations
 ### The tools around it
 Ferrite Engine Tools, private for now. Same rules as the engine: local-first, agents and humans through the same door.
 
-- **Tincal**: concept art in, modular game-ready 3D assets out. Generates each part, assembles the kit, rigs and validates it, exports glTF to Ferrite's conventions. Desktop app built on Ferrite; CLI and MCP server for agents. *Planning.*
+- **Tincal**: a 3D asset studio built on Ferrite. Concept art to modular, rigged, game-ready assets, and everything around that.
+  - **Concept:** text-to-concept, prompted edits, inpainting, turnaround and exploded-view sheets. An approved concept becomes an asset spec. No export step.
+  - **Part kits, not blobs:** every asset is reusable parts with connectors, joints, sockets, damage states down to the wreck, and physics metadata, at real-world scale. Each new asset grows the part library.
+  - **Library ingest:** point it at any asset library. It inventories, classifies, and batch-conforms what it finds to a faction's palette, scale, and budgets.
+  - **Designer-first:** everything works by hand with AI off. A manual fix is locked so a rerun keeps it, and becomes an example the AI learns from.
+  - **One command layer:** the desktop app, the CLI, the MCP server, and a voice-capable chat all call the same commands. Agents never get a capability the UI lacks.
+  - Local models by default. The foundation is built; the generation pipeline is next.
 - **Lodestone**: an AI-run story engine and lore keeper. Agents extract the lore, keep continuity, and draft; I review from an nvim-style cockpit and sign canon with a real key. The universe is plain YAML and Markdown.
 - **Red-Rouge**: an AI director. Match records in, trailers, teasers, and Shorts out.
 

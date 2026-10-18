@@ -23,11 +23,7 @@ I like a simple, clean UI on a reproducible Linux ecosystem, with customizations
 
 ## Ferrite
 
-<p align="center">
-  <img src="assets/ferrite.jpg" width="100%" alt="Ferrite runtime rendering the Sponza atrium">
-</p>
-
-**An agent-native, editor-first 3D game engine, written entirely in Rust.** Linux, Windows, and Android. **[ferriteengine.com](https://ferriteengine.com)**
+**An agent-native, editor-first 3D game engine, written entirely in Rust.** Linux, Windows, and Android.
 
 - **Agent-native.** Humans and AI agents get the same capabilities: edit, play, test, see, build. Every editor feature is also an agent tool over MCP, with undo, staged review, and an audit log. All authored data is plain text.
 - **Editor-first.** Dockable editor, play-in-editor, content browser, prefabs, physically based renderer, animation graphs, code hot reload.

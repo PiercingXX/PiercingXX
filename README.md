@@ -46,7 +46,7 @@ Ferrite Engine Tools, private for now. Same rules as the engine: local-first, ag
   - **AI proposes, I pick:** each match is reconstructed into a story, scene proposals, and camera treatments, all rendered ahead as previews. I pick scenes from my phone; it cuts the edit to the detected beat of its own generated track.
   - **Honest footage:** every shot carries its source and a tier: captured, replay, enhanced, or generated. A cut labeled gameplay contains only real gameplay.
   - **Publish and learn:** approved cuts go to YouTube, Reels, and TikTok on a calendar, oldest match first. My picks, verdicts, and analytics train the ranker. Nothing goes public without my OK.
-  - The local farm renders, scores the music, and runs QA. Claude only directs, on a daily budget. The engine-free half is built; the rest lands with the engine hooks.
+  - The local farm renders, scores the music, and runs QA. The engine-free half is built; the rest lands with the engine hooks.
 
 ### The game it ships
 **Direct Order 27**: hover-tank strategy and first-person combat on Europa and Mars. Hard sci-fi FPS/RTS, multiplayer only.

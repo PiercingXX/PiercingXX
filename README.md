@@ -41,7 +41,12 @@ Ferrite Engine Tools, private for now. Same rules as the engine: local-first, ag
   - **One command layer:** the desktop app, the CLI, the MCP server, and a voice-capable chat all call the same commands. Agents never get a capability the UI lacks.
   - Local models by default. The foundation is built; the generation pipeline is next.
 - **Lodestone**: an AI-run story engine and lore keeper. Agents extract the lore, keep continuity, and draft; I review from an nvim-style cockpit and sign canon with a real key. The universe is plain YAML and Markdown.
-- **Red-Rouge**: an AI director. Match records in, trailers, teasers, and Shorts out.
+- **Red-Rouge**: an AI director for Ferrite games. Match records in; trailers, teasers, Shorts, and long-form out, published on a schedule.
+  - **Replay-native:** every gameplay shot is re-rendered from the deterministic match record with the game's real renderer. Any camera, any aspect. Slow motion comes from re-simulation, never interpolation. Vertical is framed natively, never cropped.
+  - **AI proposes, I pick:** each match is reconstructed into a story, scene proposals, and camera treatments, all rendered ahead as previews. I pick scenes from my phone; it cuts the edit to the detected beat of its own generated track.
+  - **Honest footage:** every shot carries its source and a tier: captured, replay, enhanced, or generated. A cut labeled gameplay contains only real gameplay.
+  - **Publish and learn:** approved cuts go to YouTube, Reels, and TikTok on a calendar, oldest match first. My picks, verdicts, and analytics train the ranker. Nothing goes public without my OK.
+  - The local farm renders, scores the music, and runs QA. Claude only directs, on a daily budget. The engine-free half is built; the rest lands with the engine hooks.
 
 ### The game it ships
 **Direct Order 27**: hover-tank strategy and first-person combat on Europa and Mars. Hard sci-fi FPS/RTS, multiplayer only.

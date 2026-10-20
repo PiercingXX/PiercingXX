@@ -139,7 +139,7 @@ Yes, it's opinionated. That's why it's good.
 - FastAPI for house servers, Go when the binary *is* the product
 - Bash. It's a love language; put it everywhere you can
 - Python when you have to
-- kitty, Yazi, Neovim. tmux is a must
+- kitty, Yazi, Neovim, tmux is a must
 - Docker/Compose, NVIDIA + CUDA, SGLang, Wyoming/Home Assistant, Tailscale
 
 ---

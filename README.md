@@ -10,7 +10,7 @@
 </p>
 
 <p align="center">
-  <a href="#ferrite">Ferrite</a> ·
+  <a href="#regia engine">Regia Engine</a> ·
   <a href="#linux">Linux</a> ·
   <a href="#phone">Phone</a> ·
   <a href="#local-ai--self-hosting">Local AI</a> ·
@@ -21,7 +21,7 @@ I like a simple, clean UI on a reproducible Linux ecosystem, with customizations
 
 ---
 
-## Ferrite
+## Regia Engine
 
 **An agent-native, editor-first 3D game engine, written entirely in Rust.** Linux, Windows, and Android.
 
@@ -31,9 +31,9 @@ I like a simple, clean UI on a reproducible Linux ecosystem, with customizations
 - **Rust all the way down.** Engine, editor, tools, and gameplay. No scripting VM. wgpu (Vulkan / DX12), Rapier physics, Kira audio, an ECS core.
 
 ### The tools around it
-Ferrite Engine Tools, private for now. Same rules as the engine: local-first, agents and humans through the same door.
+Regia Engine Tools, private for now. Same rules as the engine: local-first, agents and humans through the same door.
 
-- **Tincal**: a 3D asset studio built on Ferrite. Concept art to modular, rigged, game-ready assets, and everything around that.
+- **Tincal**: a 3D asset studio built on Regia Engine. Concept art to modular, rigged, game-ready assets, and everything around that.
   - **Concept:** text-to-concept, prompted edits, inpainting, turnaround and exploded-view sheets. An approved concept becomes an asset spec. No export step.
   - **Part kits, not blobs:** every asset is reusable parts with connectors, joints, sockets, damage states down to the wreck, and physics metadata, at real-world scale. Each new asset grows the part library.
   - **Library ingest:** point it at any asset library. It inventories, classifies, and batch-conforms what it finds to a faction's palette, scale, and budgets.
@@ -41,7 +41,7 @@ Ferrite Engine Tools, private for now. Same rules as the engine: local-first, ag
   - **One command layer:** the desktop app, the CLI, the MCP server, and a voice-capable chat all call the same commands. Agents never get a capability the UI lacks.
   - Local models by default. The foundation is built; the generation pipeline is next.
 - **Lodestone**: an AI-run story engine and lore keeper. Agents extract the lore, keep continuity, and draft; I review from an nvim-style cockpit and sign canon with a real key. The universe is plain YAML and Markdown.
-- **Red-Rouge**: an AI director for Ferrite games. Match records in; trailers, teasers, Shorts, and long-form out, published on a schedule.
+- **Red-Rouge**: an AI director for Regia Engine games. Match records in; trailers, teasers, Shorts, and long-form out, published on a schedule.
   - **Replay-native:** every gameplay shot is re-rendered from the deterministic match record with the game's real renderer. Any camera, any aspect. Slow motion comes from re-simulation, never interpolation. Vertical is framed natively, never cropped.
   - **AI proposes, I pick:** each match is reconstructed into a story, scene proposals, and camera treatments, all rendered ahead as previews. I pick scenes from my phone; it cuts the edit to the detected beat of its own generated track.
   - **Honest footage:** every shot carries its source and a tier: captured, replay, enhanced, or generated. A cut labeled gameplay contains only real gameplay.
@@ -58,7 +58,7 @@ Ferrite Engine Tools, private for now. Same rules as the engine: local-first, ag
 - **Netcode first.** Bit-identical across operating systems, so replays are exact. 16 players by design, 32 on a dedicated host.
 - **Hard science.** Every capability has a mechanism someone could explain.
 
-In closed alpha. Steam comes after it's stable and the asset list fills out. Shipping it is Ferrite's finish line.
+In closed alpha. Steam comes after it's stable and the asset list fills out. Shipping it is Regia Engine's finish line.
 
 ---
 
